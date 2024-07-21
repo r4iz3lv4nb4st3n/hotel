@@ -1,0 +1,15 @@
+login menggunakan username: admin & pasword: admin123.
+
+1. masuk kedalam menu data room, inputkan data kamar.
+2. masuk kedalam menu data visitors, untuk menginputkan data pengunjung.
+3. masuk kedalam menu data reservation, untuk menginputkan data pemesanan
+4. menu transaction, untuk melakukan pembayaran.
+
+alur jalan program
+menginputkan data pengunjung lalu menginputkan data reservasi, setelah itu melakukan transaksi pembayaran.
+note: untuk melihat data transaksi klik kolom search di id transaksi lalu klik enter.
+
+Trigger
+1. update status kamar. ketika nomor kamar di reservasi (dipesan) maka di data kamar statusnya akan tidak tersedia.
+2. update status reservasi. ketika status reservasi di update dari dipesan menjadi selesai maka nomor kamar di data room akan 
+tersedia kembali.
